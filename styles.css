@@ -1,0 +1,512 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+strong{
+    font-weight: bolder;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Abhaya Libre', serif;
+}
+
+/* HEADER */
+
+
+
+.head{
+    display: flex;
+    background-image: url(img/montagne_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.head__presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(35, 40, 38, 0.437);
+    height: 100vh;
+    width: 100%;
+}
+
+#navbar{
+    background-color: rgba(35, 40, 38, 0.437);
+}
+
+#navbar, nav{
+    width: 100%;
+    height: 3em;
+    position: absolute;
+    margin-bottom: 100%
+}
+
+#navbar, nav,ul{
+    display: flex;
+    width: 100%;
+    padding-top: 0.2em;
+    padding-bottom: 1em;
+}
+
+li>a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 2em;
+    padding-left: 1em; 
+}
+
+li>a:hover{
+color: black;
+}
+
+h1{
+   
+    font-weight: 700;
+    font-size: 8rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head__yellow{
+    color: #F5CB5C;
+}
+
+#head__unicode{
+    color: #F5CB5C;
+}
+
+h2{
+   
+    font-weight: 600;
+    font-size: 5rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head_image_logo{
+    display: flex;
+
+}
+
+#logo{
+    font-family: "Font Awesome 6 Brands";
+    font-size: 5em;
+    color: white;
+    margin: 3vh;
+}
+
+#logo:hover{
+    color: #F5CB5C;
+}
+
+
+/* MAIN PREMIERE PARTIE CV PHOTO IDENTITE ET PRESENTATION  */
+
+#fisrt_cv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+}
+
+.first_cv-item-1{
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0 0 6em;
+    width: 35%;
+}
+
+.picture-photo__jeremybranger{
+    width: 300px;
+    clip-path: ellipse(50% 50%);
+}
+
+
+
+address{
+    font-size: 1em; 
+    font-weight: 400;
+    line-height: 1.8em;
+    margin-top: 2em;
+}
+
+#identity{
+    font-weight: bolder
+}
+
+.first_cv-item-2{
+    width: 65%;
+    margin: 3em 6em 0 0;
+}
+
+h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    justify-content: flex-start;
+    margin-bottom: 1em;
+}
+
+.first_cv-item-2>p{
+    line-height: 1.8em;
+}
+
+.btn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    border: 1px solid  #2F4558;
+    background-color: #2F4558;
+    border-radius: 30px;
+    color: #FFFFFF;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-left: 1em;
+    box-shadow: rgba(0, 0, 0, 0.664) 1px 1px 1px 1px;
+}
+
+
+.cv{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #F6B12D;
+    background-color:  #F6B12D;
+    border-radius: 30px;
+    color: #FFFFFF;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-left: 1em;
+    box-shadow: rgba(0, 0, 0, 0.664) 1px 1px 1px 1px;
+}
+
+.contact:hover, .cv:hover{
+    box-shadow:rgba(0, 0, 0, 0.849) 2px 2px 2px 2px; 
+}
+
+
+.contact>a, .cv>a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*SECOND PARTIE COMPETENCES*/
+
+#second_competence{
+    background-color: #F0F0F0 ;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.second_competence-item-1{
+    margin: 0 6em;
+    padding-top: 1em;
+}
+
+.second_competence-item-1> p{
+   text-align: center;
+   height: 100%;
+   padding-bottom: 5em;
+}
+
+/*3EME PARTIE PORTFOLIO*/
+
+#third_portfolio{
+    background-color: #F0F0F0 ;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.third_portfolio-item-1{
+    margin: 0 6em;
+    padding-top: 1em;
+}
+
+.third_portfolio-item-1> p{
+    text-align: center;
+    height: 100%;
+    padding-bottom: 5em;
+ }
+
+/*4EME PARTIE CONTACT*/
+
+ #fourth_contact{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 3em;
+    background-color: #F0F0F0 ;
+}
+
+.fourth_contact-item-1{
+    margin: 0 6em;
+    padding-top: 1em;
+}
+
+.fourth_contact-item-1> p{
+    text-align: center;
+    height: 100%;
+    padding-bottom: 5em;
+ }
+
+/* MEDIA RESPONSIVE HEADER*/
+
+@media (min-width: 0px) and (max-width: 500px){
+    h1{
+   
+        font-weight: 700;
+        font-size: 4rem;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+    h2{
+   
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 1em;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+    
+    #logo{
+        font-family: "Font Awesome 6 Brands";
+        font-size: 3em;
+        color: white;
+        margin: 3vh;
+    }
+
+    #logo:hover{
+        color: #F5CB5C;
+    }
+
+    .first_cv-item-1{
+       width: 50%;
+    }
+
+    .first_cv-item-2{
+       width: 50%;
+        
+    }
+
+    .picture-photo__jeremybranger{
+        width: 100px;
+        clip-path: ellipse(50% 50%);
+    }
+    
+    .btn{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3em;
+    }
+    
+    .contact, .cv{
+        border: 1px solid #F0F0F0;
+        background-color: #F0F0F0;
+        border-radius: 30px;
+        color: #FFFFFF;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        font-size: 1.8em;
+        text-transform: uppercase;
+        padding: 20px;
+        margin-top: 1em;
+    }
+    
+    .contact>a, .cv>a{
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 768px){
+    h1{
+   
+        font-weight: 700;
+        font-size: 6rem;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+    h2{
+   
+        font-weight: 600;
+        font-size: 3rem;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 1em;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+    
+    #logo{
+        font-family: "Font Awesome 6 Brands";
+        font-size: 4em;
+        color: white;
+        margin: 3vh;
+    }
+
+    #logo:hover{
+        color: #F5CB5C;
+    }
+
+    .picture-photo__jeremybranger{
+        width: 150px;
+        clip-path: ellipse(50% 50%);
+    }
+
+    .first_cv-item-1{
+       width: 50%;
+    }
+
+    .first_cv-item-2{
+       width: 50%;
+    }
+
+    .btn{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3em;
+    }
+    
+    .contact, .cv{
+        border: 1px solid #F0F0F0;
+        background-color:  #F0F0F0;
+        border-radius: 30px;
+        color: #FFFFFF;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        font-size: 1.8em;
+        text-transform: uppercase;
+        padding: 20px;
+        margin-top: 1em;
+    }
+    
+    .contact>a, .cv>a{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    h1{
+   
+        font-weight: 700;
+        font-size: 8rem;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2{
+   
+        font-weight: 600;
+        font-size: 4rem;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #logo{
+        font-family: "Font Awesome 6 Brands";
+        font-size: 4em;
+        color: white;
+        margin: 2vh;
+    }
+
+    .picture-photo__jeremybranger{
+        width: 200px;
+        clip-path: ellipse(50% 50%);
+    }
+
+    .first_cv-item-1{
+       width: 50%;
+    }
+
+    .first_cv-item-2{
+       width: 50%;
+    }
+
+    .btn{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3em;
+    }
+    
+    .contact, .cv{
+        border: 1px solid  #F0F0F0;
+        background-color:  #F0F0F0;
+        border-radius: 30px;
+        color: #FFFFFF;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        font-size: 1.8em;
+        text-transform: uppercase;
+        padding: 20px;
+        margin-top: 1em;
+    }
+    
+    .contact>a, .cv>a{
+        justify-content: center;
+        align-items: center;
+    }
+}
